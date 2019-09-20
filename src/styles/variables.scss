@@ -1,1 +1,16 @@
-$divbackground:red;
+//导航标题颜色配置
+$navBarTitileBackground: rgba(2, 136, 209, 1); //导航标题背景颜色
+$navBarTitileHeight: 2.9rem; //导航标题背景高度
+$navBarTitileFontSize: 1.1rem; //导航标题文字大小
+$navBarTitileIconFontSize: 1.5rem; //导航标题返回按钮大小
+$navBarTitileFontColor: #fff; //导航标题字体颜色
+
+$pageHeight: calc(100vh);
+$pageWidth: 100%;
+
+$notFoundImageHeight: 16rem;
+$notFoundImageWidth: 16rem;
+:export {
+  notFoundImageWidth: $notFoundImageWidth;
+  pageHeight: $pageHeight
+}

@@ -1,0 +1,20 @@
+@import "variables.scss";
+//导航条颜色配置
+.van-nav-bar {
+  //背景颜色
+  background: $navBarTitileBackground;
+  height: $navBarTitileHeight;
+  line-height: $navBarTitileHeight;
+  //字体颜色
+  .van-nav-bar__title {
+    color: $navBarTitileFontColor;
+    font-size: $navBarTitileFontSize;
+  }
+  .van-nav-bar__text {
+    color: $navBarTitileFontColor;
+  }
+  .van-icon {
+    color: $navBarTitileFontColor;
+    font-size: 1.5rem;
+  }
+}

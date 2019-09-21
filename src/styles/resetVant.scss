@@ -18,3 +18,20 @@
     font-size: 1.5rem;
   }
 }
+
+.van-cell {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0.6878rem 0.78049rem;
+  .van-cell__title {
+    font-size: 0.955rem;
+    color: #999999;
+  }
+  .van-field__label {
+    width: 5.39024rem;
+  }
+  .van-field__body {
+    input[type="text"] {
+      font-size: 0.955rem;
+    }
+  }
+}

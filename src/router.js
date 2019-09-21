@@ -1,21 +1,32 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HelloWorld from './components/HelloWorld'
-import NotFound from './components/404'
 
 Vue.use(VueRouter)
 const Router = new VueRouter({
     routes: [
         {
             path: '*',
-            name: '登录',
-            component: HelloWorld,
+            name: '示例页面',
+            component: () => import(/*webpackChunkName:"HelloWorld"*/"@/components/HelloWorld"),
         },
+        {
+            path: '/testForm',
+            name: '表单示例页面',
+            component: () => import(/*webpackChunkName:"testForm"*/"@/components/testPage/testForm"),
+        },
+
         {
             path: '/404',
             name: '登录',
-            component: NotFound,
+            component: () => import(/*webpackChunkName:"404"*/"@/components/404"),
         },
+        {
+            path: '/rightPopup',
+            name: '滑动侧边栏',
+            component: () => import(/*webpackChunkName:"rightPopup"*/"@/components/testPage/rightPopup"),
+        },
+
+
     ]
 })
 export default Router

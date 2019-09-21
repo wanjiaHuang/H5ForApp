@@ -6,8 +6,7 @@
         <div class="notFound-layer allPageBox">
             <van-nav-bar
                     title="现场检查"
-                    left-text=""
-                    left-arrow=true
+                    left-arrow
             />
             <img src="../assets/images/notFoundIcon.png" class="allPageImage"/>
         </div>

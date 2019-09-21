@@ -52,7 +52,7 @@
         ]
       },
       "postcss-pxtorem": {
-        "rootValue": 20.5,
+        "rootValue": 20,
         "propList": [
           "*"
         ]

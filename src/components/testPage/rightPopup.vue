@@ -20,28 +20,9 @@
                         <van-cell v-for="item in checkBoxData" :title="item.value" :border="false">
                         <span class="inlineBlock">
                           <van-checkbox :key="item.key" :name="item.key"/>
-
                         </span>
                         </van-cell>
-
-                        <!--<span class="checkBoxItem">-->
-                        <!--<van-checkbox v-for="(item, index) in checkBoxData" :key="item.key" :name="item.key">-->
-                        <!--{{ item.value }}-->
-                        <!--</van-checkbox>-->
-                        <!--</span>     <!--<span class="checkBoxItem">-->
-                        <!--<van-checkbox v-for="(item, index) in checkBoxData" :key="item.key" :name="item.key">-->
-                        <!--{{ item.value }}-->
-                        <!--</van-checkbox>-->
-                        <!--</span>-->
                     </van-checkbox-group>
-
-                    <!--<van-radio-group v-model="radioSelect">-->
-                    <!--<van-cell v-for="item in radioData" :title="item.value" :border="false">-->
-                    <!--<span class="inlineBlock">-->
-                    <!--<van-radio :name="item.value"/>-->
-                    <!--</span>-->
-                    <!--</van-cell>-->
-                    <!--</van-radio-group>-->
                 </van-collapse-item>
             </van-collapse>
         </van-cell-group>
@@ -66,10 +47,6 @@
                 ],
                 checkBoxSelect: ['1', '3'],
                 radio: '1',
-                icon: {
-                    active: 'https://img.yzcdn.cn/vant/user-active.png',
-                    inactive: 'https://img.yzcdn.cn/vant/user-inactive.png'
-                }
             }
         },
         computed: {},
@@ -83,7 +60,6 @@
     .checkBoxItem {
         position: relative
     }
-
     .checkBoxItem .van-checkbox {
         display: inline-block;
         padding: 10PX;

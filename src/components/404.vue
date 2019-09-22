@@ -1,13 +1,8 @@
 /*404页面*/
 <template>
     <div id="notFound">
-        <!--https://youzan.github.io/vant/#/zh-CN/nav-bar-->
-        <!--http://www.wulihub.com.cn/go/Wv8MxJ/start.html-->
         <div class="notFound-layer allPageBox">
-            <van-nav-bar
-                    title="现场检查"
-                    left-arrow
-            />
+            <van-nav-bar title="现场检查" left-arrow/>
             <img src="../assets/images/notFoundIcon.png" class="allPageImage"/>
         </div>
     </div>

@@ -1,3 +1,4 @@
+//重置UI框架 vant中的样式
 @import "variables.scss";
 //导航条颜色配置
 .van-nav-bar {
@@ -19,6 +20,7 @@
   }
 }
 
+//重写单元格样式
 .van-cell {
   //border-bottom: 1PX solid #f0f0f0;
   padding: 0.6878rem 0.78049rem;
@@ -36,6 +38,7 @@
   }
 }
 
+//重写单元格组样式
 .van-cell-group {
   background-color: #fff;
   border-bottom: 3PX solid #ebedf0;

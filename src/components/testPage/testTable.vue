@@ -1,7 +1,6 @@
 <template>
     <div id="test-table">
         <van-cell :title="item.name" v-for="item in tableData">
-            <!-- 使用 title 插槽来自定义标题 -->
             <template slot="label">
                 <span class="checkItem">
                     <span class="title">等级:</span>
@@ -27,7 +26,6 @@
                      <span class="title">检测时间:</span>
                     <span class="content">{{item.time}}</span>
                 </span>
-                <!--<van-tag type="danger">标签</van-tag>-->
             </template>
         </van-cell>
     </div>

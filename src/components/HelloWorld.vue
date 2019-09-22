@@ -23,7 +23,7 @@
                 <right-popup/>
             </van-popup>
             <!--路由跳转区域-->
-            <van-cell title="打开表单示例页面" is-link @click="routerTo('./testForm')"/>
+            <van-cell title="跳转到其他示例页面" is-link @click="routerTo('./testForm')"/>
             <van-cell title="前往404页面" is-link @click="routerTo('/404')"/>
             <van-popup v-model="showPicker" position="bottom">
                 <van-picker
